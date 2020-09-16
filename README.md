@@ -1,1 +1,1 @@
-A basic SavingsAccount class with some variables, methods, and method calls.
+A collection of Java source files and programs. 
