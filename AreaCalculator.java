@@ -25,7 +25,7 @@ public class AreaCalculator {
             System.out.println("4) Quit");
             System.out.println();
 
-            System.out.println("Which shape: ");
+            System.out.println("Choose a shape: ");
 
             int shape = keyboard.nextInt();
             System.out.println();
@@ -64,7 +64,7 @@ public class AreaCalculator {
 
         int A = (base * height) / 2;
 
-        System.out.println("The area is " + A + ".");
+        System.out.println("The area of a triangle is " + A + ".");
 
         return A;
     }
@@ -84,7 +84,7 @@ public class AreaCalculator {
 
         int A = length * width;
 
-        System.out.println("The area is " + A + ".");
+        System.out.println("The area of a rectangle is " + A + ".");
 
         return A;
     }
@@ -101,7 +101,7 @@ public class AreaCalculator {
 
         double A = Math.PI * radius * radius;
 
-        System.out.println("The area is " + A + ".");
+        System.out.println("The area of a circle is " + A + ".");
 
         return A;
     }
