@@ -30,8 +30,6 @@ public class AreaCalculator {
             int shape = keyboard.nextInt();
             System.out.println();
 
-            keyboard.close();
-
             // Check for user input
             if (shape == 1) {
                 area_triangle(5, 6);
@@ -46,6 +44,8 @@ public class AreaCalculator {
                 quit();
                 break;
             }
+
+            keyboard.close();
         }
     }
 
