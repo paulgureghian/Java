@@ -25,7 +25,7 @@ public class AreaCalculator {
             System.out.println("4) Quit");
             System.out.println();
 
-            System.out.println("Choose a shape: ");
+            System.out.print("Choose a shape: ");
 
             int shape = keyboard.nextInt();
             System.out.println();
@@ -53,10 +53,10 @@ public class AreaCalculator {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Base: ");
+        System.out.print("Base: ");
         base = keyboard.nextInt();
 
-        System.out.println("Height: ");
+        System.out.print("Height: ");
         height = keyboard.nextInt();
 
         System.out.println();
@@ -64,7 +64,7 @@ public class AreaCalculator {
 
         int A = (base * height) / 2;
 
-        System.out.println("The area of a triangle is " + A + ".");
+        System.out.println("The area of a triangle is: " + A + ".");
 
         return A;
     }
@@ -73,10 +73,10 @@ public class AreaCalculator {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Length: ");
+        System.out.print("Length: ");
         length = keyboard.nextInt();
 
-        System.out.println("Width: ");
+        System.out.print("Width: ");
         width = keyboard.nextInt();
 
         System.out.println();
@@ -84,7 +84,7 @@ public class AreaCalculator {
 
         int A = length * width;
 
-        System.out.println("The area of a rectangle is " + A + ".");
+        System.out.println("The area of a rectangle is: " + A + ".");
 
         return A;
     }
@@ -93,7 +93,7 @@ public class AreaCalculator {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Radius: ");
+        System.out.print("Radius: ");
         radius = keyboard.nextInt();
 
         System.out.println();
@@ -101,7 +101,7 @@ public class AreaCalculator {
 
         double A = Math.PI * radius * radius;
 
-        System.out.println("The area of a circle is " + A + ".");
+        System.out.println("The area of a circle is: " + A + ".");
 
         return A;
     }
