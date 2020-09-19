@@ -44,8 +44,6 @@ public class AreaCalculator {
                 quit();
                 break;
             }
-
-            keyboard.close();
         }
     }
 
@@ -60,7 +58,6 @@ public class AreaCalculator {
         height = keyboard.nextInt();
 
         System.out.println();
-        keyboard.close();
 
         int A = (base * height) / 2;
 
@@ -80,7 +77,6 @@ public class AreaCalculator {
         width = keyboard.nextInt();
 
         System.out.println();
-        keyboard.close();
 
         int A = length * width;
 
@@ -97,7 +93,6 @@ public class AreaCalculator {
         radius = keyboard.nextInt();
 
         System.out.println();
-        keyboard.close();
 
         double A = Math.PI * radius * radius;
 
