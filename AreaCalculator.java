@@ -103,7 +103,7 @@ public class AreaCalculator {
 
     public static String quit() {
 
-        System.out.println("Quit program");
+        System.out.println("Quit program \n");
 
         return null;
     }
