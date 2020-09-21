@@ -61,7 +61,7 @@ public class AreaCalculator {
 
         int A = (base * height) / 2;
 
-        System.out.println("The area of a triangle is: " + A + ".");
+        System.out.println("The area of a triangle in square units is: " + A + ".");
 
         return A;
     }
@@ -80,7 +80,7 @@ public class AreaCalculator {
 
         int A = length * width;
 
-        System.out.println("The area of a rectangle is: " + A + ".");
+        System.out.println("The area of a rectangle in square units is: " + A + ".");
 
         return A;
     }
@@ -96,7 +96,7 @@ public class AreaCalculator {
 
         double A = Math.PI * radius * radius;
 
-        System.out.println("The area of a circle is: " + A + ".");
+        System.out.println("The area of a circle in square units is: " + A + ".");
 
         return A;
     }
